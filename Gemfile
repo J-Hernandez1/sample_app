@@ -5,6 +5,10 @@ ruby '2.6.3'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
 gem 'rails', '~> 6.1.3'
+# To create additional users
+gem 'faker', '2.11.0'
+gem 'will_paginate', '3.3.0'
+gem 'bootstrap-will_paginate', '1.0.0'
 # For digesting the has_secure_password
 gem 'bcrypt', '3.1.13'
 #Allows the use of Bootstrap in application
