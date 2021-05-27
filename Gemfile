@@ -9,6 +9,9 @@ gem 'rails', '~> 6.1.3'
 gem 'faker', '2.11.0'
 gem 'will_paginate', '3.3.0'
 gem 'bootstrap-will_paginate', '1.0.0'
+gem 'active_storage_validations', '0.8.9'
+gem 'image_processing', '1.9.3'
+gem 'mini_magick', '4.9.5'
 # For digesting the has_secure_password
 gem 'bcrypt', '3.1.13'
 #Allows the use of Bootstrap in application
@@ -67,6 +70,7 @@ end
 
 group :production do
   gem 'pg', '1.2.3'
+  gem 'aws-sdk-s3', '1.87.0', require: false
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
